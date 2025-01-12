@@ -1,0 +1,61 @@
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-light: hsl(0, 0%, 42%);
+    --Gray-dark: hsl(0, 0%, 7%);
+}
+body{
+    font-family: 'Figtree' sans-serif;
+    font-size: 16px;
+    background-color: var(--Yellow);
+    font-weight: 500;
+}
+.container{
+    background-color: var(--White);
+    border-radius: 15px;
+    box-shadow: 20px 15px 5px var(--Gray-dark);
+    width: 21rem;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+.container-elements p:first-child{
+    font-weight: 500;
+}
+.title{
+    font-weight: 800;
+    font-size: 20px;
+}
+.title:hover{
+    cursor: pointer;
+    color: var(--Yellow);
+}
+.description {
+    color: var(--Gray-light);
+}
+.container button{
+    background-color: var(--Yellow);
+    color: var(--Gray-dark);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+body span{
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.container .illustration img{
+    border-radius: 10px;
+}
+
+.profile{
+    display: flex;
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 1rem; margin-bottom: 1rem; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
