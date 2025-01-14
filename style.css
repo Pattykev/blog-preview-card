@@ -19,7 +19,7 @@ body{
     padding: 1rem 1rem;
 }
 
-.container-elements p:first-child{
+.container-elements h1{
     font-weight: 500;
 }
 .title{
@@ -30,7 +30,7 @@ body{
     cursor: pointer;
     color: var(--Yellow);
 }
-.description {
+p {
     color: var(--Gray-light);
 }
 .container button{
